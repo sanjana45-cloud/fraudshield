@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+transformers
+torch --index-url https://download.pytorch.org/whl/cpu
+scikit-learn
+pandas
+numpy
+python-multipart
+requests
+pydantic
+python-dotenv
+twilio

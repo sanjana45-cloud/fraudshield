@@ -1,0 +1,112 @@
+.explainer-container {
+  margin-top: var(--space-5);
+  width: 100%;
+}
+
+.explainer-btn {
+  background: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  padding: 12px 28px;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.15s ease;
+  width: 100%;
+}
+
+.explainer-btn:hover {
+  background: var(--color-primary-glow);
+  transform: translateY(-1px);
+}
+
+.explainer-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--color-primary);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px dashed var(--color-border-accent);
+  background: var(--color-bg-elevated);
+}
+
+/* Lucide Loader2 SVG needs animation applied to the SVG element itself */
+.spinner-explainer {
+  animation: spin 0.7s linear infinite;
+}
+
+.explainer-error {
+  color: var(--color-risk-high);
+  background-color: var(--color-risk-high-bg);
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--color-risk-high-border);
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.explainer-card {
+  background-color: var(--color-bg-elevated);
+  border: 1px solid var(--color-border-accent);
+  border-top: 2px solid var(--color-cyan);
+  border-radius: 0 0 12px 12px;
+  padding: 20px 24px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  animation: fadeInUp 0.25s ease forwards;
+}
+
+.explainer-header {
+  margin: 15px 0 6px 0;
+  color: var(--color-text-primary);
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.explainer-header:first-child {
+  margin-top: 0;
+}
+
+.explainer-content p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+.explainer-content ul {
+  margin-top: 0;
+  padding-left: 20px;
+}
+
+.explainer-content li {
+  margin-bottom: 6px;
+  line-height: 1.6;
+  font-size: 14px;
+  font-weight: 300;
+}
